@@ -33,6 +33,8 @@ För att komma igång.
    ```bash
    npm run dev
    ```
+
+   
 7. **Klona individuella repositoriet**
    ```bash
    git clone https://github.com/MikeWaser/BEIU.git
