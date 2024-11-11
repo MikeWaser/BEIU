@@ -1,7 +1,7 @@
 import axios from "axios";
 import { URL } from "../config.js";
 
-// Fetches and displays details of a specific event by ID
+// Hämtar och visar detaljer om specifika event via id
 async function fetchEventDetails(eventId) {
     try {
         const response = await axios.get(`${URL}/events/${eventId}`);
@@ -22,7 +22,7 @@ async function fetchEventDetails(eventId) {
     }
 }
 
-// Registers a command for fetching event details
+// Funktion för att registrera kommando att hämta detaljer om event
 export function getEventDetails(program) {
     program
         .command("show <eventId>")

@@ -1,6 +1,7 @@
 import axios from "axios";
 import { URL } from "../config.js";
 
+//Funktion för att ta bort användare från event
 async function removeUserFromEvent(eventId, username) {
     try {
         const response = await axios.put(`${URL}/events/unjoin/${eventId}`, { attendent: username, paid: true });
@@ -14,7 +15,7 @@ async function removeUserFromEvent(eventId, username) {
     }
 }
 
-// Registers a command for removing a user from an event
+// Lägger till kommandot för att ta bort användare i event
 export function removeUser(program) {
     program
         .command("unregister <eventId> <username>")

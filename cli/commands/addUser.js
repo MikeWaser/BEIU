@@ -1,6 +1,7 @@
 import axios from "axios";
 import { URL } from "../config.js";
 
+// Funktion för att lägger till avändare i event
 async function addUserToEvent(eventId, username) {
     try {
         const response = await axios.put(`${URL}/events/join/${eventId}`, { attendent: username, paid: true });
@@ -14,6 +15,7 @@ async function addUserToEvent(eventId, username) {
     }
 }
 
+// Lägger till kommandot för att lägga till användare i event
 export function addUser(program) {
     program
         .command("register <eventId> <username>")
