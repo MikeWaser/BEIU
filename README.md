@@ -67,7 +67,7 @@ node cli.js register <eventId> <userId>
 node cli.js unregister <eventId> <userId>
 ```
 
-***AnvändarId för att testa***
+***UserId för att testa***
 ```
 maiqen
 ```
