@@ -8,7 +8,7 @@ Ett CLI-verktyg för att hantera events via en backend byggd med Node.js och Mon
 
  ## Installation
 
-För att komma igång.
+**För att komma igång**
 
 
 
