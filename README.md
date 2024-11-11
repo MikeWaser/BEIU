@@ -16,7 +16,7 @@ För att komma igång.
    ```bash
    git clone https://github.com/samadamp/GruppUppgift.git
    ```
-2. **Installera beroenden**  
+2. **Installera dependencies**  
    Gå till projektmappen och kör:
    ```bash
    npm install
@@ -43,7 +43,7 @@ För att komma igång.
    ```bash
    cd cli
    ```
-9. **Installera beroenden**  
+9. **Installera dependencies**  
   Kör:
    ```bash
    npm install
