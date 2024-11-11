@@ -50,7 +50,7 @@ För att komma igång.
    ```
 ### Klart
 Nu kan du köra olika node kommandon
-**Lista alla publika event**
+**Lista alla offentliga event**
 ```bash
 node cli.js list
 ```
