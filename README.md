@@ -25,11 +25,11 @@ För att komma igång.
    ```
    mongodb+srv://94sampan:Bf49PuSE9uZ6sJxK@databas.qtcdf.mongodb.net/
    ```
-5. Navigera till backend-servermappen:
+5. **Navigera till backend-servermappen**
    ```bash
    cd backend/server
    ```
-6. Starta backend-servern:
+6. **Starta backend-servern**
    ```bash
    npm run dev
    ```
@@ -37,7 +37,7 @@ För att komma igång.
    ```bash
    git clone https://github.com/MikeWaser/BEIU.git
    ```
-8. Navigera till cli mappen
+8. **Navigera till climappen**
    ```bash
    cd cli
    ```
