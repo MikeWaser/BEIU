@@ -16,34 +16,32 @@ För att komma igång.
    ```bash
    git clone https://github.com/samadamp/GruppUppgift.git
    ```
-
 2. **Installera beroenden**  
    Gå till projektmappen och kör:
    ```bash
    npm install
    ```
-
-3. **Connect to Database** 
+3. **Connect to Database**
+   ```
    mongodb+srv://94sampan:Bf49PuSE9uZ6sJxK@databas.qtcdf.mongodb.net/
-
-
-4. Navigera till backend-servermappen:
+   ```
+5. Navigera till backend-servermappen:
    ```bash
    cd backend/server
    ```
-5. Starta backend-servern:
+6. Starta backend-servern:
    ```bash
    npm run dev
    ```
-6. **Klona individuella repositoriet**
+7. **Klona individuella repositoriet**
    ```bash
    git clone https://github.com/MikeWaser/BEIU.git
    ```
-7. Navigera till cli mappen
+8. Navigera till cli mappen
    ```bash
    cd cli
    ```
-8. **Installera beroenden**  
+9. **Installera beroenden**  
   Kör:
    ```bash
    npm install
