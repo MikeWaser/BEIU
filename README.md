@@ -49,7 +49,7 @@ Ett CLI-verktyg för att hantera events via en backend byggd med Node.js och Mon
    npm install
    ```
 ### Klart
-Nu kan du köra olika node kommandon
+
 **Lista alla offentliga event**
 ```bash
 node cli.js list
