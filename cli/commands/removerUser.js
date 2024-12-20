@@ -22,25 +22,3 @@ export function removeUser(program) {
         .description("Unregister a user from an event")
         .action(removeUserFromEvent);
 }
-
-/* import axios from "axios";
-import { URL } from "../config.js"; // URL för API:et
-
-// Avregistrerar en användare från ett event
-async function removeUserFromEvent(eventId, userId) {
-    try {
-        const { data: event } = await axios.post(`${URL}/events/${eventId}/unregister`, { userId }); // Skicka POST-förfrågan
-        console.log(`Användaren ${userId} har tagits bort från "${event.name}".`); // Bekräftelsemeddelande
-    } catch (err) {
-        // Felmeddelande vid misslyckad avregistrering
-        console.error("Fel vid avregistrering:", err.response?.data || err.message);
-    }
-}
-
-// Registrerar "unregister" kommandot i CLI
-export function removeUser(program) {
-    program
-        .command("unregister <eventId> <userId>")
-        .description("Avregistrera en användare från ett event")
-        .action(removeUserFromEvent);
-} */
