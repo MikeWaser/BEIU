@@ -6,9 +6,9 @@ import { removeUser } from "./commands/removerUser.js";
 
 const program = new Command();
 
-addUser(program);
 getAllEvents(program);
 getEventDetails(program);
+addUser(program);
 removeUser(program);
 
 program.parse(process.argv);
